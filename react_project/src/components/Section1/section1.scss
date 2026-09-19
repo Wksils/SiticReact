@@ -1,11 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-section{
-
+.section1{
     width: 100vw;
     height: 100vh;
     background-image: url('../../assets/bgs1.png');
@@ -28,7 +21,7 @@ section{
             margin-left: 2%;
             align-items: end;
             h1{
-                color: white; font-family: 'Roboto', sans-serif; 
+                color: white; 
                 font-weight: 400;
                 font-size: 5.6rem;
             }
