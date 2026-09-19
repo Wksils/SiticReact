@@ -5,7 +5,7 @@ import Header from "../Header/header.jsx"
 export default function Section1() {
     return(
         <>
-            <section>
+            <section className='section1'>
                 <Header/>
                 <div className='container'>
                     <div>
