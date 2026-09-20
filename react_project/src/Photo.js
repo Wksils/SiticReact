@@ -7,6 +7,7 @@ import skyscanner from "./assets/skyscanner.png"
 import sova from "./assets/sova.png"
 import travelport from "./assets/travelport.png"
 
+
 export const Photo = {
     bgs1:bgs1,
     amadeus:amadeus,
