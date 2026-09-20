@@ -1,4 +1,85 @@
 .section3{
     width: 100vw;
     height: 100vh;
+    background-color: #D7DFD1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .sectionContainer{
+        width: 65%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        .top{
+            height: 40%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            p{
+                width: 5%;
+                height: 12%;
+                font-size: 5.5rem;
+                background-color: white;
+                text-align: center;
+                border-radius: 20px;
+                
+            }
+            h2{
+                font-size: 3rem;
+                font-weight: 400;
+                width: 85%;
+            }
+        }
+        .text{
+            align-self: flex-end;
+            width: 85%;
+            height: 25%;
+            font-size: 1.8rem;
+        }
+        .ppls{
+            width: 100%;
+            height: 30%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            button{
+                width: 5%;
+                height: 16%;
+                border: none;
+                background-color: white;
+                font-size: 2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 25px;
+            }
+            .ppl{
+                width: 75%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                div{
+                    width: 10%;
+                    height: auto;
+                    display: flex;
+                    justify-content: center;
+                    img{width: 50%;
+                    height: auto;}
+                }
+            }
+           .ppl .fp{
+                width: 24%;
+                height: 100%;
+                flex-direction: column;
+                justify-content: end;
+                gap: 2%;
+                img{width: 45%; justify-self: baseline; margin-bottom: 10%;}
+                p{font-size: 1.4rem;}
+            }
+            
+        }
+    }
 }
