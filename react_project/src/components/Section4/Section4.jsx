@@ -4,7 +4,7 @@ export default function Secton4(){
     return(
         <>
             <section className="section4">
-                <div className='s3Container'>
+                <div className='s4Container'>
                     <h2>We're aligning on sustainability frameworks, across the industry</h2>
                     <div className="cards">
                         <div className="card">

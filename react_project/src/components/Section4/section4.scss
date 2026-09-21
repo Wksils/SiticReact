@@ -6,11 +6,52 @@
     justify-content: center;
     align-items: center;
     .s4Container{
-        width: 80%;
-        height: 80%;
+        width: 70%;
+        height: 75%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        
+        h2{
+            font-weight: 400;
+            font-size: 4rem;
+            width: 70%;
+        }
+        .cards{
+            width: 130%;
+            height: 45%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .card{
+                background-color: cadetblue;
+                width: 33%;
+                height: 100%;
+                display: flex;
+                align-items: end;
+                justify-content: center;
+                div{
+                    width: 80%;
+                    height: 40%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    p{color: white; font-size: 2.5rem;}
+                    button{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 15%;
+                        height: 45%;
+                        border-radius: 35px;
+                        border: none;
+                        font-size: 2rem;
+                        font-weight: 500;
+                    }
+                }
+            }
+            & > .card:nth-of-type(1){
+                background-image: url('../../assets/');
+            }
+        }
     }
 }
