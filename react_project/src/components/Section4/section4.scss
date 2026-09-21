@@ -1,13 +1,13 @@
 .section4{
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
     background-color: #DDEEE8;
     display: flex;
     justify-content: center;
     align-items: center;
     .s4Container{
         width: 70%;
-        height: 75%;
+        height: 65%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -18,7 +18,7 @@
         }
         .cards{
             width: 130%;
-            height: 45%;
+            height: 32%;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -29,6 +29,7 @@
                 display: flex;
                 align-items: end;
                 justify-content: center;
+                background-size: cover;
                 div{
                     width: 80%;
                     height: 40%;
@@ -50,8 +51,48 @@
                 }
             }
             & > .card:nth-of-type(1){
-                background-image: url('../../assets/');
+                background-image: url('../../assets/plane.png');
             }
+            & > .card:nth-of-type(2){
+                background-image: url('../../assets/bg2.png');
+            }
+            & > .card:nth-of-type(3){
+                background-image: url('../../assets/boat.png');
+            }
+        }
+        .infoNiz{
+            width: 100%;
+            height: 25%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p{
+                width: 65%;
+                font-size: 1.7rem;
+            }
+            div{
+                width: 12%;
+                height: 30%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                button{
+                    display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 45%;
+                        height: 90%;
+                        border-radius: 35px;
+                        border: none;
+                        font-size: 2rem;
+                        font-weight: 500;
+                }
+            }
+
+        }
+        p{
+            width: 65%;
+            font-size: 1.7rem;
         }
     }
 }
