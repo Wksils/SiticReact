@@ -1,0 +1,45 @@
+.section7{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../assets/night_sky.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        width: 65%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: white;
+        .top{
+            width: 65%;
+            height: 45%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .plans{
+                width: 100%;
+                height: 20%;
+                display: flex;
+                justify-content: flex-start;
+                gap: 5%;
+                align-items: center;
+                div{
+                    color: black;
+                    width: 6%;
+                    height: 60%;
+                    background-color: white;
+                    border-radius: 35px;
+                    display: flex; justify-content: center;
+                    align-items: center;
+                    p{width: 100%;text-align: center; font-size: 1.5rem;}
+                }
+                p{font-size: 2.5rem; width: auto;}
+            }
+            .plans:nth-of-type(1){color: #EAEAB6; div{background-color: #EAEAB6;}}
+        }
+    }
+    p{font-size: 1.7rem; width: 65%;}
+}

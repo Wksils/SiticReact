@@ -4,6 +4,7 @@ import Section3 from "./components/Section3/Section3"
 import Section4 from "./components/Section4/Section4"
 import Section5 from "./components/Section5/Section5"
 import Section6 from "./components/Section6/Section6"
+import Section7 from "./components/Section7/Section7"
 import './App.scss'
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
       <Section4/>
       <Section5/>
       <Section6/>
+      <Section7/>
     </>
   )
 }
