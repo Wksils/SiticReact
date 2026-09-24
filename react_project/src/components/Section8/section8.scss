@@ -1,0 +1,103 @@
+.section8{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F0F1E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        width: 60%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h2{
+            font-weight: 400;
+            font-size: 3.8rem;
+        }
+        p{
+            width: 75%;
+            height: auto;
+            font-size: 1.45rem;
+        }
+        .cards{
+            width: 150%;
+            height: 50%;
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            .card{
+                width: 33%;
+                height: 100%;
+                background-color: white;
+                border-radius: 15px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .cardCont{
+                    width: 90%;
+                    height: 80%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .num{
+                        width: 10%;
+                        height: 17%;
+                        border-radius: 25px;
+                        background-color: #0D231F;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        p{color: white; width: auto;}
+                    }
+                    .text{
+                        width: 100%;
+                        height: 55%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        h4{
+                            font-size: 2rem;
+                            font-weight: 400;
+                        }
+                        p{width: 90%; font-size: 1.48rem;}
+                    }
+                }
+            }
+        }
+        .btns{
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            button{
+                border: none;
+                background-color: #DEDFCE;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .more{
+                width: 15%;
+                height: 90%;
+                border-radius: 30px;
+                font-size: 1.4rem;
+            }
+            div{
+                width: 10%;
+                height: 90%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                button{
+                    width: 48%;
+                    height: 90%;
+                    border-radius: 50px;
+                    font-size: 2rem;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
